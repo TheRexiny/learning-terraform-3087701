@@ -11,7 +11,7 @@ data "aws_ami" "app_ami" {
     values = ["hvm"]
   }
 
-  owners = ["137112412989"] # AMZ
+  owners = ["137112412989"] # AMZZ
 }
 
 resource "aws_instance" "web" {
